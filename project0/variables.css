@@ -1,0 +1,103 @@
+#searchfield {
+  margin: 10px;
+  border-radius: 30px;
+  border: 1px solid lightgrey;
+  height: 35px;
+}
+
+#searchbutton {
+  margin: 15px;
+  background-color: gainsboro;
+  color: darkslategrey;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+}
+
+#logo {
+  height: 75px;
+  width: auto;
+}
+
+#navbar {
+  margin-top: 10px;
+}
+
+#nav-logo {
+  max-height: 35px;
+}
+
+#logosmall {
+  margin-top: 50px;
+  margin-left: -15px;
+  height: 25px;
+}
+
+#adv-search-cont {
+  padding-top: 10px;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#adv-search-form-cont {
+  padding-top: 15px;
+}
+
+#adv-search-content-header {
+  margin-bottom: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid lightgrey;
+}
+
+#adv-search-form-header {
+  margin-left: 10px;
+  margin-bottom: 50px;
+}
+
+#adv-search-form {
+  margin-top: 25px;
+}
+
+#adv-search-form-row {
+  margin-bottom: 10px;
+}
+
+.adv-search-text {
+  width: 100%;
+  height: 25px;
+  border-radius: 0px;
+  border: 1px solid lightgrey;
+}
+
+p {
+  color: darkslategrey;
+}
+
+h4 {
+  color: darkslategrey;
+}
+
+#adv-search-h3 {
+  color: crimson;
+}
+
+#adv-searchbutton {
+  margin: 15px;
+  color: white;
+  background-color: rgba(10, 136, 232, 0.92);
+  border-radius: 3px;
+  border: 1px transparent;
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+}
+
+#adv-search-form-example {
+  padding-bottom: 5px;
+  display: inline;
+}
+
+/*# sourceMappingURL=variables.css.map */

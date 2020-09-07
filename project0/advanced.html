@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Advanced Search</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="variables.css">
+    </head>
+    <body>
+        <div class="container-fluid" id="navbar">
+            <div class="row">
+                <div class="col-6">
+                    <div class="row justify-content-start">
+                        <img class="image-fluid" src="searchengine.png" alt="OpatrnyLogo" id="nav-logo">
+                    </div>
+                </div>
+                
+                <div class="col">
+                    <div class="row justify-content-end">
+                        <div class="col col-auto" id="navlink">
+                            <a href="search.html">Search</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="container-fluid" id="adv-search-cont">
+            <div class="container-fluid" id="adv-search-content-header">
+                <h3 id='adv-search-h3'>
+                    Advanced Search
+                </h3>
+            </div>
+
+            <div class="container-fluid" id="adv-search-form-cont">
+                <div class="adv-search-form-header">
+                    <div class="row">
+                        <div class="col">
+                            <h4>Find pages with...</h4>
+                        </div>
+                        <div class="col-5">
+                            <h5>To do this in the search box</h5>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row flex-nowrap">
+                    <div class="col">
+                        <form action="https://google.com/search" id="adv-search-form">
+         
+                            
+                            <div class="row flex-nowrap" id="adv-search-form-row">
+                                <div class="col" id="adv-search-form-label">
+                                    <label for="as_q"><p>all these words:</p></label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" name="as_q" class="adv-search-text">
+                                </div>
+                            </div>
+                            
+                            <div class="row flex-nowrap" id="adv-search-form-row">
+                                <div class="col" id="adv-search-form-label">
+                                    <label for="as_epq"><p>this exact word or phrase:</p></label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" name="as_epq" class="adv-search-text">
+                                </div>
+                            </div>
+                            
+                            <div class="row flex-nowrap" id="adv-search-form-row">
+                                <div class="col" id="adv-search-form-label">
+                                    <label for="as_oq"><p>any of these words:</p></label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" name="as_oq" class="adv-search-text">
+                                </div>
+                            </div>
+                            
+                            <div class="row flex-nowrap" id="adv-search-form-row">
+                                <div class="col" id="adv-search-form-label">
+                                    <label for="as_eq"><p>none of these words:</p></label>
+                                </div>
+                                <div class="col-9">
+                                    <input type="text" name="as_eq" class="adv-search-text">
+                                </div>
+                            </div>
+                            
+                            <div class="row justify-content-end" id="adv-search-form-row">
+                                <input type="submit" value="Advanced Search" id="adv-searchbutton">
+                            </div>
+                                    
+                        </form>
+                    </div>
+
+                    <div class=col-5>
+                        <br>
+                        <div class="row" id="adv-search-form-row">
+                            <div class="row">
+                                <div class="col-12" id="adv-search-form-example">
+                                    <label>
+                                        <p>Type the important words:
+                                        <span class="text-monospace">tricolor rat terrier</span>
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="adv-search-form-row">
+                            <div class="row">
+                                <div class="col-12" id="adv-search-form-example">
+                                    <label>
+                                        <p>Put exact words in quotes:
+                                        <span class="text-monospace">"rat terrier"</span>
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="adv-search-form-row">
+                            <div class="row">
+                                <div class="col-12" id="adv-search-form-example">
+                                    <label>
+                                        <p>Type OR between all the words you want:
+                                        <span class="text-monospace">miniature OR standard</span>
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row" id="adv-search-form-row">
+                            <div class="row">
+                                <div class="col-12" id="adv-search-form-example">
+                                    <label>
+                                        <p>Put a minus sign just before words you don't want:
+                                        <span class="text-monospace">-rodent, -"Jack Russell"</span>
+                                        </p>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

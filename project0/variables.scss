@@ -1,0 +1,140 @@
+
+
+$margin-xl: 50px;
+$margin-lg: 25px;
+$margin-md: 15px;
+$margin-sm: 10px;
+$margin-xs: 5px;
+$margin-neg-md: -15px;
+
+$padding-md: 15px;
+$padding-sm: 10px;
+$padding-xs: 5px;
+$padding-neg-md: -15px;
+$padding-pct-xs: 3%;
+
+$height-xl: 75px;
+$height-md: 35px;
+$height-sm: 25px;
+
+$width-pct-full: 100%;
+
+$radius-xl: 30px;
+$radius-sm: 3px;
+$radius-no: 0px;
+
+$border-thin-light: 1px solid lightgrey;
+$border-transparent: 1px transparent;
+$border-none: none;
+
+$fill-dark: darkslategrey;
+$fill-light: gainsboro;
+
+$text-white: white;
+$text-red: crimson;
+$text-dark: darkslategrey;
+
+$button-blue: rgba(10, 136, 232, 0.92);
+
+
+#searchfield {
+    margin: $margin-sm;
+    border-radius: $radius-xl;
+    border: $border-thin-light;
+    height: $height-md;
+}
+
+#searchbutton {
+    margin: $margin-md;
+    background-color: $fill-light;
+    color: $fill-dark;
+    border-radius: $radius-sm;
+    border: $border-none;
+    padding: $padding-sm $padding-md;
+    display: flex;
+    align-items: center;
+}
+
+#logo {
+    height: $height-xl;
+    width: auto;
+}
+
+#navbar {
+    margin-top: $margin-sm;
+}
+
+#nav-logo {
+    max-height: $height-md;
+}
+
+#logosmall {
+    margin-top: $margin-xl;
+    margin-left: $margin-neg-md;
+    height: $margin-lg;
+}
+
+#adv-search-cont {
+    padding-top: $padding-sm;
+    padding-left: $padding-pct-xs;
+    padding-right: $padding-pct-xs;
+}
+
+#adv-search-form-cont {
+    padding-top: $margin-md;
+}
+
+#adv-search-content-header {
+    margin-bottom: $margin-lg;
+    padding-top:$margin-md;
+    padding-bottom:$margin-md;
+    border-bottom: $border-thin-light;
+}
+
+#adv-search-form-header {
+    margin-left: $margin-sm;
+    margin-bottom: $margin-xl;
+}
+
+#adv-search-form {
+    margin-top: $margin-lg;
+}
+
+#adv-search-form-row {
+    margin-bottom: $margin-sm;
+}
+
+.adv-search-text {
+    width: $width-pct-full;
+    height: $height-sm;
+    border-radius: $radius-no;
+    border: $border-thin-light;
+}
+
+p {
+    color: $text-dark;
+}
+
+h4 {
+    color: $text-dark;
+}
+
+#adv-search-h3 {
+    color: $text-red;
+}
+
+#adv-searchbutton {
+    margin: $margin-md;
+    color: $text-white;
+    background-color: $button-blue;
+    border-radius: $radius-sm;
+    border: $border-transparent;
+    padding: $padding-xs $margin-md;
+    display: flex;
+    align-items: center;
+}
+
+#adv-search-form-example {
+    padding-bottom: $padding-xs;
+    display: inline;
+}
