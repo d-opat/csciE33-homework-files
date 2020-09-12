@@ -69,6 +69,12 @@ $button-blue: rgba(10, 136, 232, 0.92);
     max-height: $height-md;
 }
 
+#navlink {
+    a {
+        color: $text-dark;
+    }
+}
+
 #logosmall {
     margin-top: $margin-xl;
     margin-left: $margin-neg-md;

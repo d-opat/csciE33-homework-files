@@ -29,6 +29,10 @@
   max-height: 35px;
 }
 
+#navlink a {
+  color: darkslategrey;
+}
+
 #logosmall {
   margin-top: 50px;
   margin-left: -15px;
